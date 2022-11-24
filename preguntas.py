@@ -172,3 +172,9 @@ def pregunta_04():
 
     # Retorne el error cuadrático medio para entrenamiento y prueba
     return mse_train, mse_test
+
+if __name__ == "__main__":
+    print(pregunta_01())
+    print(pregunta_02())
+    print(pregunta_03())
+    print(pregunta_04())
